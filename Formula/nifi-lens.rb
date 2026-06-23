@@ -1,25 +1,25 @@
 class NifiLens < Formula
   desc "A keyboard-driven TUI lens into Apache NiFi 2.x. Browse flows, trace flowfiles, tail bulletins, and debug across clusters and versions."
   homepage "https://github.com/maltesander/nifi-lens"
-  version "0.10.0"
+  version "0.11.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/maltesander/nifi-lens/releases/download/v0.10.0/nifi-lens-aarch64-apple-darwin.tar.xz"
-      sha256 "c61d8b7c06bf4562c951cc2037ea0d5528f1275873c29d1eb44f90f3034c80a3"
+      url "https://github.com/maltesander/nifi-lens/releases/download/v0.11.0/nifi-lens-aarch64-apple-darwin.tar.xz"
+      sha256 "8bfde6bcc4801ba94a9134bf00d360de2f0b93b35b2a6f6be679888a03a6e31a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maltesander/nifi-lens/releases/download/v0.10.0/nifi-lens-x86_64-apple-darwin.tar.xz"
-      sha256 "2c5e1aea07e8edf8c57606c9c68158f3a2d5a78ac11d2b56f5f44cb8a7268f83"
+      url "https://github.com/maltesander/nifi-lens/releases/download/v0.11.0/nifi-lens-x86_64-apple-darwin.tar.xz"
+      sha256 "48d2780ba94206ef13ae8bea5c55e9164de31c508d7547a68cfa507e52464a84"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/maltesander/nifi-lens/releases/download/v0.10.0/nifi-lens-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cc6922eaf1e9e92daaa7fe460e27a3c8322db6c68151440d6609c6ed18e781c4"
+      url "https://github.com/maltesander/nifi-lens/releases/download/v0.11.0/nifi-lens-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5b5695329015302d72589caacc7c25314d9df622cf52672f02ed39cbbcdf137a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maltesander/nifi-lens/releases/download/v0.10.0/nifi-lens-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5706fe1a030294e5b1fce05c0ade98818b504adff892dd02e5159b6344868d32"
+      url "https://github.com/maltesander/nifi-lens/releases/download/v0.11.0/nifi-lens-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e0dfae41da40c514919b2e8378e0ebe787973acbadf8d9def40b742bcbfa0f70"
     end
   end
   license "Apache-2.0"
